@@ -3,9 +3,9 @@ Estrutura básica de um site para testes
 
 ## Contém
 
-1. CSS
-1.1 bootstrap.min.css
-1.2 style.css
+1. CSS<br>
+&nbsp; 1.1 bootstrap.min.css<br>
+&nbsp; 1.2 style.css<br>
 
 2. IMG
 2.1 ico.png
