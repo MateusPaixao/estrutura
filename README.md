@@ -1,5 +1,5 @@
 # Estrutura
-Estrutura básica de um site par testes
+Estrutura básica de um site para testes
 
 ## Contém
 
