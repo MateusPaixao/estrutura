@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="ico.png">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Estrutura Mapa</title>
+</head>
+<body>
+	<header class="header container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="logo"><a href="index.html">L<span class="logo-alt">o</span>g<span class="logo-alt">o</span></a></div>
+				<nav>
+					<ul>
+						<li><a href="#home">home</a></li>
+						<li><a href="#autor">autor</a></li>
+						<li><a href="#livros">livros</a></li>
+						<li><a href="#sobre">sobre</a></li>
+						<li><a href="#contato">contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<section class="home" id="home">
+		<blockquote>
+			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto</h1>
+			<p>Lorem ipsum dolor sit amre magnam ex reiciendis nihil, dolorem nobis esse sint aliquam ratione aspernatur. Ea animi veniam quo, doloremque cum!</p>
+			<cite>Mateus Paixão - 2018</cite>
+		</blockquote>
+	</section>
+
+	<section class="autor" id="autor">
+		<div class="container">
+			<h2 class="subtitulo">Autor</h2>
+			<div class="row">
+				<div class="conteudo col-sm-6">
+					<h3 class="subtitulo-fff">Titulo Legal</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor hic ab consequuntur unde, neque laudantium reprehenderit. Ea facilis facere repellendus esse illo corporis incidunt ex impedit, enim praesentium pariatur natus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae commodi odio nulla delectus sunt optio dolor quibusdam esse officia placeat dolores eveniet unde debitis iusto inventore id, ducimus et autem?</p>
+				</div>
+				<div class="conteudo-imagem col-sm-6">
+					<div class="imagem"></div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="livros" id="livros">
+		<div class="container">
+			<h2 class="subtitulo">Livros</h2>
+			<div class="row">
+				<div class="conteudo-imagem col-sm-6">
+					<div class="imagem"></div>
+				</div>
+				<div class="conteudo col-sm-6">
+					<h3 class="subtitulo-000">Titulo Legal</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor hic ab consequuntur unde, neque laudantium reprehenderit. Ea facilis facere repellendus esse illo corporis incidunt ex impedit, enim praesentium pariatur natus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ex fuga soluta ducimus tempora id atque nisi! Dolorum aliquid ex labore rerum! Quis facilis, voluptatum error earum sint. Officiis, obcaecati.</p>
+				</div>
+		</div>
+		</div>
+	</section>
+
+	<section class="sobre" id="sobre">
+		<div class="container">
+			<h2 class="subtitulo">Sobre</h2>
+			<div class="row">
+				<div class="conteudo col-sm-6">
+					<h3 class="subtitulo-fff">Titulo Legal</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor hic ab consequuntur unde, neque laudantium reprehenderit. Ea facilis facere repellendus esse illo corporis incidunt ex impedit, enim praesentium pariatur natus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae commodi odio nulla delectus sunt optio dolor quibusdam esse officia placeat dolores eveniet unde debitis iusto inventore id, ducimus et autem?</p>
+				</div>
+				<div class="conteudo-imagem col-sm-6">
+				<img src="imagem.png" usemap="#image-map">
+				<map name="image-map">
+				    <area target="_blank" alt="Teste" title="Teste" href="http://ithinkpc.com.br" coords="9,57,179,225" shape="rect">
+				    <area target="_blank" alt="Teste" title="Teste" href="http://ithinkpc.com.br" coords="388,142,84" shape="circle">
+				    <area target="_blank" alt="Teste" title="Teste" href="http://ithinkpc.com.br" coords="90,321,60" shape="circle">
+				    <area target="_blank" alt="Teste" title="Teste" href="http://ithinkpc.com.br" coords="332,262,452,381" shape="rect">
+				</map>
+			</div>
+			</div
+		</div>
+	</section>
+
+	<section class="contato" id="contato">
+		<div class="container">
+			<h2 class="subtitulo">Contato</h2>
+			<form>
+				<label for="">Nome</label>
+				<input type="text" name="">
+				<label for="">E-mail</label>
+				<input type="email" name="">
+				<label for="">Mensagem</label>
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+				<button type="reset">Limpar</button>
+				<button type="submit">Enviar</button>
+			</form>
+		</div>
+	</section>
+	<footer class="footer">
+		<p>Lorem ipsum dolor sit amet, amet repellat assumenda.</p>
+		<p>&copy; Mateus Paixão - 2018</p>
+	</footer>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="imageMapResizer.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
