@@ -56,3 +56,19 @@ $.fn.origamidMenu = function( options ) {
 $(document).ready(function () {
 	$('map').imageMapResize();
 });
+
+
+// Scroll suave menu
+$('nav a[href^="#"]').click(function(e){
+	e.preventDefault();
+	var id = $(this).attr('href'),
+			targetOffset = $(id).offset().top,
+			menuHeight = $('nav').innerHeight(),
+			respiro = 10;
+
+	console.log(menuHeight);
+
+	$('html, body').animate({
+		scrollTop: targetOffset - menuHeight - respiro
+	}, 500);
+});
